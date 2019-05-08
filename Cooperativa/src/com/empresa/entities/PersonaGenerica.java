@@ -1,0 +1,60 @@
+package com.empresa.entities;
+
+public class PersonaGenerica {
+
+	private String nombre;
+	private String apellido;
+	private String numeroDocumento;
+	private Integer tiempo_conocerse;
+	private Integer edad;
+	private String parentesco;
+	private Integer porcentaje;
+		
+	public PersonaGenerica() {
+		super();
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getApellido() {
+		return apellido;
+	}
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+	public String getNumeroDocumento() {
+		return numeroDocumento;
+	}
+	public void setNumeroDocumento(String numeroDocumento) {
+		this.numeroDocumento = numeroDocumento;
+	}
+	public Integer getTiempo_conocerse() {
+		return tiempo_conocerse;
+	}
+	public void setTiempo_conocerse(Integer tiempo_conocerse) {
+		this.tiempo_conocerse = tiempo_conocerse;
+	}
+	public Integer getEdad() {
+		return edad;
+	}
+	public void setEdad(Integer edad) {
+		this.edad = edad;
+	}
+	public String getParentesco() {
+		return parentesco;
+	}
+	public void setParentesco(String parentesco) {
+		this.parentesco = parentesco;
+	}
+	public Integer getPorcentaje() {
+		return porcentaje;
+	}
+	public void setPorcentaje(Integer porcentaje) {
+		this.porcentaje = porcentaje;
+	}
+	
+	
+}
